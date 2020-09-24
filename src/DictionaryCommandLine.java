@@ -15,4 +15,10 @@ public class DictionaryCommandLine {
         DictionaryManagement.insertFromCommandline();
         showAllWords();
     }
+
+    static void dictionaryAdvanced() {
+        DictionaryManagement.insertFromFile();
+        showAllWords();
+        DictionaryManagement.dictionaryLookup();
+    }
 }
