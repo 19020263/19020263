@@ -1,35 +1,108 @@
+import com.sun.xml.internal.ws.util.StreamUtils;
+
+import java.io.*;
+import java.util.Collections;
 import java.util.Scanner;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
 public class DictionaryManagement {
 
     public static Scanner sc = new Scanner(System.in);
+    private static final String FILENAME = "D:\\Documents\\GitHub\\NguyenDucDung\\sources\\dictionaries.txt";
 
     public static void insertFromCommandline() {
-        int numWord = sc.nextInt();
-        sc.nextLine();
-        for(int i = 0; i < numWord; i++) {
-            String word_target_ = sc.nextLine();
-            String word_explain_ = sc.nextLine();
-            Word newWord = new Word(word_target_, word_explain_);
-            Dictionary.addWord(newWord);
+        BufferedWriter bw = null;
+        FileWriter fw = null;
+
+        try {
+            String data = sc.nextLine();
+            File file = new File(FILENAME);
+            // if file doesnt exists, then create it
+            if (!file.exists()) file.createNewFile();
+            // true = append file
+            fw = new FileWriter(file.getAbsoluteFile(), true);
+            bw = new BufferedWriter(fw);
+            bw.write(data + "\n");
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (bw != null)
+                    bw.close();
+                if (fw != null)
+                    fw.close();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
         }
+    }
+
+    public static void exportToFile() {
+        BufferedWriter bw = null;
+        FileWriter fw = null;
+        for(int i = 0; i < Dictionary.getWords().size(); i++) {
+            try {
+                String data = Dictionary.getWords().get(i).getWordtarget() + "   " + Dictionary.getWords().get(i).getWordexplain() + "\n";
+                File file = new File(FILENAME);
+                // if file doesnt exists, then create it
+                if (!file.exists()) file.createNewFile();
+                // true = append file
+                fw = new FileWriter(file.getAbsoluteFile(), true);
+                bw = new BufferedWriter(fw);
+                bw.write(data);
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+                try {
+                    if (bw != null)
+                        bw.close();
+                    if (fw != null)
+                        fw.close();
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+            }
+        }
+    }
+
+    public static void deleteWord() throws FileNotFoundException {
+        String s = sc.nextLine();
+        for(int i = 0; i < Dictionary.getWords().size(); i++) {
+            if(s.equalsIgnoreCase(Dictionary.getWords().get(i).getWordtarget()) || s.equalsIgnoreCase(Dictionary.getWords().get(i).getWordexplain()) ) {
+                Dictionary.getWords().remove(i);
+            }
+        }
+        PrintWriter writer = new PrintWriter(FILENAME);
+        writer.print("");
+        writer.close();
+        exportToFile();
+    }
+
+    public static void fixWord() throws FileNotFoundException {
+        String s = sc.nextLine();
+        for(int i = 0; i < Dictionary.getWords().size(); i++) {
+            if(s.equalsIgnoreCase(Dictionary.getWords().get(i).getWordtarget()) || s.equalsIgnoreCase(Dictionary.getWords().get(i).getWordexplain()) ) {
+                System.out.println("Change old word to:");
+                Dictionary.getWords().get(i).setWordtarget(sc.nextLine());
+                System.out.println(("Meaning:"));
+                Dictionary.getWords().get(i).setWordexplain(sc.nextLine());
+            }
+        }
+        PrintWriter writer = new PrintWriter(FILENAME);
+        writer.print("");
+        writer.close();
+        exportToFile();
     }
 
     public static void insertFromFile() {
         BufferedReader br = null;
         try {
-            br = new BufferedReader(new FileReader("D:\\Documents\\GitHub\\NguyenDucDung\\sources\\dictionaries.txt"));
+            br = new BufferedReader(new FileReader(FILENAME));
             String textInALine = br.readLine();
             while (textInALine != null) {
                 List<String> s = new LinkedList<>();
-                for(String w: textInALine.split("\\s", 2)) {
-                    s.add(w);
-                }
+                Collections.addAll(s, textInALine.split("\\s", 2));
                 Dictionary.addWord(new Word(s.get(0), s.get(1)));
                 textInALine = br.readLine();
             }

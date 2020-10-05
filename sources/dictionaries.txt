@@ -1,5 +1,12 @@
-Hello	Xin Chao
-bye	Tam Biet
-House	Ngoi Nha
-Talk	Noi
-World	The Gioi
+Hi     Chao
+Cold   Lanh
+Wind   Gio
+Hand   Tay
+Say   Noi
+Today   Hom nay
+Tomorrow	Ngay mai
+Tower	Thap
+Towel	Khan tam
+Together	Cung nhau
+Tour	Chuyen di
+Town	Thi tran
