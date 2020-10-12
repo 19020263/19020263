@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DictionaryApplication.Controller">
+   <children>
+      <TextArea fx:id="textArea" editable="false" layoutX="325.0" layoutY="80.0" prefHeight="200.0" prefWidth="400.0" />
+      <TextField fx:id="input" layoutX="55.0" layoutY="78.0" onAction="#TextFieldChanged" prefHeight="35.0" prefWidth="210.0" />
+      <Text layoutX="55.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your word:" wrappingWidth="161.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="325.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Word's meaning:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="302.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dictionary" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="39.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

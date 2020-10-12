@@ -1,4 +1,4 @@
-import com.sun.xml.internal.ws.util.StreamUtils;
+package DictionaryApplication;
 
 import java.io.*;
 import java.util.Collections;

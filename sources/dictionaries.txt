@@ -10,3 +10,4 @@ Towel	Khan tam
 Together	Cung nhau
 Tour	Chuyen di
 Town	Thi tran
+Car	Xe o to

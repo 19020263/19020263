@@ -1,3 +1,5 @@
+package DictionaryApplication;
+
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
