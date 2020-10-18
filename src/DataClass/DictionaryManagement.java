@@ -1,22 +1,21 @@
-package DictionaryApplication;
+package DataClass;
+
 
 import java.io.*;
-import java.util.Collections;
+import java.lang.*;
 import java.util.Scanner;
-import java.util.LinkedList;
-import java.util.List;
 
 public class DictionaryManagement {
 
     public static Scanner sc = new Scanner(System.in);
-    private static final String FILENAME = "D:\\Documents\\GitHub\\NguyenDucDung\\sources\\dictionaries.txt";
+    private static final String FILENAME = new File("src/DictionaryApplication/dictionaries.txt").getAbsolutePath();
 
-    public static void insertFromCommandline() {
+    public static void insertWord(String a, String b) {
         BufferedWriter bw = null;
         FileWriter fw = null;
 
         try {
-            String data = sc.nextLine();
+            String data = a + " " + b;
             File file = new File(FILENAME);
             // if file doesnt exists, then create it
             if (!file.exists()) file.createNewFile();
@@ -41,7 +40,7 @@ public class DictionaryManagement {
     public static void exportToFile() {
         BufferedWriter bw = null;
         FileWriter fw = null;
-        for(int i = 0; i < Dictionary.getWords().size(); i++) {
+        for (int i = 0; i < Dictionary.getWords().size(); i++) {
             try {
                 String data = Dictionary.getWords().get(i).getWordtarget() + "   " + Dictionary.getWords().get(i).getWordexplain() + "\n";
                 File file = new File(FILENAME);
@@ -66,10 +65,9 @@ public class DictionaryManagement {
         }
     }
 
-    public static void deleteWord() throws FileNotFoundException {
-        String s = sc.nextLine();
-        for(int i = 0; i < Dictionary.getWords().size(); i++) {
-            if(s.equalsIgnoreCase(Dictionary.getWords().get(i).getWordtarget()) || s.equalsIgnoreCase(Dictionary.getWords().get(i).getWordexplain()) ) {
+    public static void deleteWord(String word) throws FileNotFoundException {
+        for (int i = 0; i < Dictionary.getWords().size(); i++) {
+            if (word.equalsIgnoreCase(Dictionary.getWords().get(i).getWordtarget())) {
                 Dictionary.getWords().remove(i);
             }
         }
@@ -79,14 +77,12 @@ public class DictionaryManagement {
         exportToFile();
     }
 
-    public static void fixWord() throws FileNotFoundException {
-        String s = sc.nextLine();
-        for(int i = 0; i < Dictionary.getWords().size(); i++) {
-            if(s.equalsIgnoreCase(Dictionary.getWords().get(i).getWordtarget()) || s.equalsIgnoreCase(Dictionary.getWords().get(i).getWordexplain()) ) {
-                System.out.println("Change old word to:");
-                Dictionary.getWords().get(i).setWordtarget(sc.nextLine());
-                System.out.println(("Meaning:"));
-                Dictionary.getWords().get(i).setWordexplain(sc.nextLine());
+    public static void fixWord(String oword, String word, String wordm) throws FileNotFoundException {
+        String s = oword;
+        for (int i = 0; i < Dictionary.getWords().size(); i++) {
+            if (s.equalsIgnoreCase(Dictionary.getWords().get(i).getWordtarget()) || s.equalsIgnoreCase(Dictionary.getWords().get(i).getWordexplain())) {
+                Dictionary.getWords().get(i).setWordtarget(word);
+                Dictionary.getWords().get(i).setWordexplain(wordm);
             }
         }
         PrintWriter writer = new PrintWriter(FILENAME);
@@ -95,15 +91,13 @@ public class DictionaryManagement {
         exportToFile();
     }
 
-    public static void insertFromFile() {
-        BufferedReader br = null;
+    public static void insertFromFile() throws FileNotFoundException {
+        BufferedReader br = new BufferedReader(new FileReader(new File(FILENAME)));
         try {
-            br = new BufferedReader(new FileReader(FILENAME));
             String textInALine = br.readLine();
             while (textInALine != null) {
-                List<String> s = new LinkedList<>();
-                Collections.addAll(s, textInALine.split("\\s", 2));
-                Dictionary.addWord(new Word(s.get(0), s.get(1)));
+                String[] s = textInALine.split("\\s", 2);
+                Dictionary.addWord(new Word(s[0], s[1]));
                 textInALine = br.readLine();
             }
         } catch (IOException e) {
@@ -117,12 +111,14 @@ public class DictionaryManagement {
         }
     }
 
-    public static void dictionaryLookup() {
-        String word = sc.next();
-        for(Word w : Dictionary.getWords()) {
+    public static String dictionaryLookup(String s) {
+        String word = s;
+        String ans = "";
+        for (Word w : Dictionary.getWords()) {
             if (word.equalsIgnoreCase(w.getWordtarget())) {
-                System.out.println( w.getWordexplain());
+                ans = w.getWordexplain();
             }
         }
+        return ans;
     }
 }

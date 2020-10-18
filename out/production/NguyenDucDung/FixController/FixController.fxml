@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="567.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FixController.FixController">
+   <children>
+      <Text layoutX="119.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change word">
+         <font>
+            <Font name="Arial" size="52.0" />
+         </font>
+      </Text>
+      <TextField fx:id="word" layoutX="14.0" layoutY="173.0" prefHeight="33.0" prefWidth="200.0" />
+      <TextField fx:id="wordm" layoutX="230.0" layoutY="173.0" prefHeight="33.0" prefWidth="250.0" />
+      <Text layoutX="14.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New word:">
+         <font>
+            <Font name="Arial" size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="230.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New word's meaning:">
+         <font>
+            <Font name="Arial" size="23.0" />
+         </font>
+      </Text>
+      <Button layoutX="486.0" layoutY="174.0" mnemonicParsing="false" onAction="#fixWord" prefHeight="31.0" prefWidth="76.0" text="Change" />
+      <TextField fx:id="oword" layoutX="14.0" layoutY="104.0" prefHeight="31.0" prefWidth="200.0" />
+      <Text layoutX="14.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Old word:">
+         <font>
+            <Font name="Arial" size="23.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

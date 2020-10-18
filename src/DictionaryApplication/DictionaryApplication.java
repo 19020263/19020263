@@ -1,5 +1,6 @@
 package DictionaryApplication;
 
+import DataClass.DictionaryManagement;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -15,11 +16,13 @@ public class DictionaryApplication extends Application {
     @Override
     public void start(Stage primaryStage) {
         try{
+            DictionaryManagement.insertFromFile();
             Parent root = FXMLLoader.load(this.getClass().getResource("DictionaryApplication.fxml"));
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
             primaryStage.show();
-        }catch (Exception e){
+
+        }catch (Exception e) {
             e.printStackTrace();
         }
     }

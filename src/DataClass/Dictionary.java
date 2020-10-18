@@ -1,10 +1,10 @@
-package DictionaryApplication;
+package DataClass;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Dictionary {
-    static List<Word> words = new LinkedList<>();
+    static List<Word> words = new ArrayList<>();
     static int num = 0;
 
     static boolean duplicateWord(String word_target) {
@@ -15,10 +15,8 @@ public class Dictionary {
     }
 
     public static void addWord(Word newWord) {
-        if(duplicateWord(newWord.getWordtarget())) {
-            words.add(newWord);
-            num++;
-        }
+        words.add(newWord);
+        num++;
     }
 
     public static List<Word> getWords() {

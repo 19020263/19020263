@@ -1,4 +1,4 @@
-package DictionaryApplication;
+package DataClass;
 
 public class Word {
     String word_target;
