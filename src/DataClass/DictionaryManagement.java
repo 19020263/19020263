@@ -42,7 +42,7 @@ public class DictionaryManagement {
         FileWriter fw = null;
         for (int i = 0; i < Dictionary.getWords().size(); i++) {
             try {
-                String data = Dictionary.getWords().get(i).getWordtarget() + "   " + Dictionary.getWords().get(i).getWordexplain() + "\n";
+                String data = Dictionary.getWords().get(i).getWordtarget() + "\t" + Dictionary.getWords().get(i).getWordexplain() + "\n";
                 File file = new File(FILENAME);
                 // if file doesnt exists, then create it
                 if (!file.exists()) file.createNewFile();
