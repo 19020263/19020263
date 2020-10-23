@@ -1,6 +1,10 @@
 package AddController;
 
+import DataClass.Dictionary;
+import DataClass.DictionaryCommandLine;
 import DataClass.DictionaryManagement;
+import DataClass.Word;
+import DictionaryApplication.Controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -19,13 +23,21 @@ public class AddController implements Initializable {
 
     public void addNewWord(ActionEvent event) throws FileNotFoundException {
         DictionaryManagement.insertWord(word.getText(), wordm.getText());
-        DataClass.DictionaryManagement.insertFromFile();
-
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Information");
-        alert.setHeaderText(null);
-        alert.setContentText("New word is added successfully!");
-        alert.showAndWait();
+        if(Dictionary.duplicateWord(word.getText())) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Information");
+            alert.setHeaderText(null);
+            alert.setContentText("New word is added successfully!");
+            alert.showAndWait();
+            System.out.println(DictionaryCommandLine.showAllWords());
+        } else {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Information");
+            alert.setHeaderText(null);
+            alert.setContentText("New word had already in the dictionary");
+            alert.showAndWait();
+            System.out.println(DictionaryCommandLine.showAllWords());
+        }
     }
 
     @Override

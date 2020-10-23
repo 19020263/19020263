@@ -11,7 +11,7 @@
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DictionaryApplication.Controller">
     <children>
         <TextArea fx:id="textArea" editable="false" layoutX="325.0" layoutY="80.0" prefHeight="480.0" prefWidth="400.0" />
-        <TextField fx:id="input" layoutX="38.0" layoutY="81.0" prefHeight="35.0" prefWidth="220.0">
+        <TextField fx:id="input" layoutX="38.0" layoutY="81.0" onKeyPressed="#findWord" prefHeight="35.0" prefWidth="220.0">
             <font>
                 <Font name="Arial" size="21.0" />
             </font>
@@ -36,5 +36,6 @@
         <Button layoutX="149.0" layoutY="595.0" mnemonicParsing="false" onAction="#DeleteWord" text="Delete word" />
         <Button fx:id="button2" layoutX="271.0" layoutY="595.0" mnemonicParsing="false" onAction="#changeFixWordScene" text="Change word" />
       <Button layoutX="725.0" layoutY="595.0" mnemonicParsing="false" onAction="#Speak" text="Speak" />
+      <Button layoutX="400.0" layoutY="595.0" mnemonicParsing="false" onAction="#showAllWords" prefHeight="31.0" prefWidth="130.0" text="Show all words" />
     </children>
 </Pane>

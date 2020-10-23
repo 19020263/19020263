@@ -1,1 +1,1 @@
-CreateObject("SAPI.SpVoice").Speak("Thursday")
+CreateObject("SAPI.SpVoice").Speak("add")

@@ -8,14 +8,12 @@ public class DictionaryCommandLine {
     public static Scanner sc = new Scanner(System.in);
 
 
-    static void showAllWords() {
-        System.out.println("NO     | English     | Vietnamese");
+    public static String showAllWords() {
+        String data = "";
         for (int i = 0; i < Dictionary.getWords().size(); i++) {
-            System.out.printf("%-6d | %-11s | %s \n",
-                    (i + 1),
-                    Dictionary.getWords().get(i).getWordtarget(),
-                    Dictionary.getWords().get(i).getWordexplain());
+            data += Dictionary.getWords().get(i).getWordtarget() + "\t" + Dictionary.getWords().get(i).getWordexplain() + "\n";
         }
+        return data;
     }
 
     static void dictionarySearcher() {

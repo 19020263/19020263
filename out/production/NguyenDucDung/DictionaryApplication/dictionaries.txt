@@ -88,7 +88,6 @@ alcoholic	rượu; người nghiện rượu
 alive	sống, vẫn còn sống, còn tồn tại
 all	tất cả
 allow	cho phép, để cho
-all	tốt, ổn, khỏe mạnh; được
 ally	nước đồng minh, liên minh; liên kết, lien minh, kết thông gia
 allied	lien minh, đồng minh, thông gia
 almost	hầu như, gần như
@@ -163,7 +162,7 @@ approve	tán thành, đồng ý, chấp thuận
 approving	tán thành, đồng ý, chấp thuận
 approximate	giống với, giống hệt với
 approximately	khoảng chừng, độ chừng
-April	tháng Tư
+april	tháng Tư
 area	diện tích, bề mặt
 argue	chứng tỏ, chỉ rõ
 argument	lý lẽ
@@ -187,7 +186,6 @@ artistic	thuộc nghệ thuật, thuộc mỹ thuật
 as	như (as you know…)
 ashamed	ngượng, xấu hổ
 aside	về một bên, sang một bên
-apart	ngoài… ra
 ask	hỏi
 asleep	ngủ, đang ngủ
 aspect	vẻ bề ngoài, diện mạo
@@ -212,7 +210,7 @@ attract	hút; thu hút, hấp dẫn
 attraction	sự hút, sức hút
 attractive	hút, thu hút, có duyên, lôi cuốn
 audience	thính, khan giả
-August	tháng Tám
+august	tháng Tám
 aunt	cô, dì
 author	tác giả
 authority	uy quyền, quyền lực
@@ -227,165 +225,6 @@ aware	biết, nhận thức, nhận thức thấy
 away	xa, xa cách, rời xa, đi xa
 awful	oai nghiêm, dễ sợ
 awkward	vụng về, lung túng
-back	lưng, về phía sau, trở lại
-background	phía sau; nền
-backward	về phía sau, lùi lại
-bacteria	vi khuẩn
-bad	xấu, tồi
-badly	xấu, tồi
-bad-tempered	xấu tính, dễ nổi cáu
-bag	bao, túi, cặp xách
-baggage	hành lý
-bake	nung, nướng bằng lò
-balance	cái cân; làm cho cân bằng, tương xứng
-ball	quả bóng
-ban	cấm, cấm chỉ; sự cấm
-band	băng, đai, nẹp
-bandage	dải băng; băng bó
-bank	bờ (sông…) , đê
-bar	quán bán rượu
-bargain	sự mặc cả, sự giao kèo mua bán
-barrier	đặt chướng ngại vật
-base	cơ sở, cơ bản, nền móng; đặt tên, đặt cơ sở trên cái gì
-basic	cơ bản, cơ sở
-basically	cơ bản, về cơ bản
-basis	nền tảng, cơ sở
-bath	sự tắm
-battery	pin, ắc quy
-battle	trận đánh, chiến thuật
-bay	gian (nhà), nhịp (cầu), chuồng (ngựa); bays: vòng nguyệt quế
-beach	bãi biển
-beak	mỏ chim
-bear	mang, cầm, vác, đeo, ôm
-beard	râu
-beat	tiếng đập, sự đập; đánh đập, đấm
-beautiful	đẹp
-beautifully	tốt đẹp, đáng hài lòng
-beauty	vẻ đẹp, cái đẹp; người đẹp
-because	bởi vì, vì
-become	trở thành, trở nên
-bed	cái giường
-bedroom	phòng ngủ
-beef	thịt bò
-beer	rượu bia
-before	trước, đằng trước
-begin	bắt đầu, khởi đầu
-beginning	phần đầu, lúc bắt đầu, lúc khởi đầu
-behalf	sự thay mặt
-behave	đối xử, ăn ở, cư xử
-behind	sau, ở đằng sau
-belief	lòng tin, đức tin, sự tin tưởng
-believe	tin, tin tưởng
-bell	cái chuông, tiếng chuông
-belong	thuộc về, của, thuộc quyền sở hữu
-below	ở dưới, dưới thấp, phía dưới
-belt	dây lưng, thắt lưng
-bend	chỗ rẽ, chỗ uốn; khuỷu tay; cúi xuống, uốn cong
-bent	khiếu, sở thích, khuynh hướng
-beneath	ở dưới, dưới thấp
-benefit	lợi, lợi ích; giúp ích, làm lợi cho
-beside	bên cạnh, so với
-bet	đánh cuộc, cá cược; sự đánh cuộc
-betting	sự đánh cuộc
-better,	/best/	tốt hơn, tốt nhất
-good,	/wel/	tốt, khỏe
-between	giữa, ở giữa
-beyond	ở xa, phía bên kia
-bicycle	xe đạp
-bid	đặt giá, trả giá; sự đặt giá, sự trả giá
-big	to, lớn
-bill	hóa đơn, giấy bạc
-bin	thùng, thùng đựng rượu
-biology	sinh vật học
-bird	chim
-birth	sự ra đời, sự sinh đẻ
-birthday	ngày sinh, sinh nhật
-biscuit	bánh quy
-bit	miếng, mảnh
-bite	cắn, ngoạm; sự cắn, sự ngoạm
-bitter	đắng; đắng cay, chua xót
-bitterly	đắng, đắng cay, chua xót
-black	đen; màu đen
-blade	lưỡi (dao, kiếm); lá (cỏ, cây); mái (chèo); cánh (chong chóng)
-blame	khiển trách, mắng trách; sự khiển trách, sự mắng trách
-blank	trống, để trắng; sự trống rỗng
-blankly	ngây ra, không có thần
-blind	đui, mù
-block	khối, tảng (đá); làm ngăn cản, ngăn chặn
-blonde	hoe vàng, mái tóc hoe vàng
-blood	máu, huyết; sự tàn sát, chem giết
-blow	nở hoa; sự nở hoa
-blue	xanh, màu xanh
-board	tấm ván; lát ván, lót ván
-boat	tàu, thuyền
-body	thân thể, thân xác
-boil	sôi, luộc
-bomb	quả bom; oánh bom, thả bom
-bone	xương
-book	sách; ghi chép
-boot	giày ống
-border	bờ, mép, vỉa, lề (đường)
-bore	buồn chán, buồn tẻ
-boring	buồn chán
-born:	sinh, đẻ
-borrow	vay, mượn
-boss	ông chủ, thủ trưởng
-both	cả hai
-bother	làm phiền, quấy rầy, làm bực mình
-bottle	chai, lọ
-bottom	phần dưới cùng, thấp nhất; cuối, cuối cùng
-bound	nhất định, chắc chắn
-bowl	cái bát
-box	hộp, thùng
-boy	con trai, thiếu niên
-brain	óc não; đầu óc, trí não
-branch	ngành; nhành cây, nhánh song, ngả đường
-brand	nhãn (hàng hóa)
-brave	gan dạ, can đảm
-bread	bánh mỳ
-break	bẻ gãy, đập vỡ; sự gãy, sự vỡ
-broken	bị gãy, bị vỡ
-breakfast	bữa điểm tâm, bữa sáng
-breast	ngực, vú
-breath	hơi thở, hơi
-breathe	hít, thở
-breathing	sự hô hấp, sự thở
-breed	nuôi dưỡng, chăm sóc, giáo dục; sinh đẻ; nòi giống
-brick	gạch
-bridge	cái cầu
-brief	ngắn, gọn, vắn tắt
-briefly	ngắn, gọn, vắn tắt, tóm tắt
-bright	sáng, sáng chói
-brightly	sáng chói, tươi
-brilliant	tỏa sáng, rực rỡ, chói lọi
-bring	mang, cầm , xách lại
-broad	rộng
-broadly	rộng, rộng rãi
-broadcast	tung ra khắp nơi,truyền rộng rãi; phát thanh, quảng bá
-brother	anh, em trai
-brown	nâu, màu nâu
-brush	bàn chải; chải, quét
-bubble	bong bóng, bọt, tăm
-budget	ngân sách
-build	xây dựng
-building	sự xây dựng, công trình xây dựng; tòa nhà binđinh
-bullet	đạn (súng trường, súng lục)
-bunch	búi, chùm, bó, cụm, buồng; bầy, đàn (AME)
-burn	đốt, đốt cháy, thắp, nung, thiêu
-burnt	bị đốt, bị cháy, khê; rám nắng, sạm (da)
-burst	nổ, nổ tung (bom, đạn); nổ, vỡ (bong bóng); háo hức
-bury	chôn cất, mai táng
-bus	xe buýt
-bush	bụi cây, bụi rậm
-business	việc buôn bán, thương mại, kinh doanh
-busy	bận, bận rộn
-but	nhưng
-butter	bơ
-button	cái nút, cái khuy, cúc
-buy	mua
-buyer	người mua
-by	bởi, bằng
-bye	tạm biệt
 back	lưng, về phía sau, trở lại
 background	phía sau; nền
 backward	về phía sau, lùi lại
@@ -594,7 +433,6 @@ ceiling	trần nhà
 celebrate	kỷ niệm, làm lễ kỷ niệm; tán dương, ca tụng
 celebration	sự kỷ niệm, lễ kỷ niệm; sự tán dương, sự ca tụng
 cell	ô, ngăn
-cent	đồng xu (=1/100 đô la)
 central	trung tâm, ở giữa, trung ương
 centre	điểm giữa, trung tâm, trung ương
 century	thế kỷ
@@ -808,7 +646,6 @@ cottage	nhà tranh
 cotton	bông, chỉ, sợi
 cough	ho, sự ho, tiếng hoa
 coughing	ho
-could	có thể, có khả năng
 council	hội đồng
 count	đếm, tính
 counter	quầy hàng, quầy thu tiền, máy đếm
@@ -895,7 +732,7 @@ debate	cuộc tranh luận, cuộc tranh cãi; tranh luận, bàn cãi
 debt	nợ
 decade	thập kỷ, bộ mười, nhóm mười
 decay	tình trạng suy tàn, suy sụp, tình trạng đổ nát
-December	tháng mười hai, tháng Chạp
+december	tháng mười hai, tháng Chạp
 decide	quyết định, giải quyết, phân xử
 decision	sự quyết định, sự giải quyết, sự phân xử
 declare	tuyên bố, công bố
@@ -1282,7 +1119,7 @@ favourite	được ưa thích; người (vật) được ưa thích
 fear	sự sợ hãi, e sợ; sợ, lo ngại
 feather	lông chim
 feature	nét đặt biệt, điểm đặc trưng; mô tả nét đặc biệt, đặc trưng của…
-February	tháng 2
+february	tháng 2
 federal	liên bang
 fee	tiền thù lao, học phí
 feed	cho ăn, nuôi
@@ -1360,7 +1197,6 @@ formerly	trước đây, thuở xưa
 formula	công thức, thể thức, cách thức
 fortune	sự giàu có, sự thịnh vượng
 forward	về tương lai, sau này ở phía trước, tiến về phía trước
-forward	ở phía trước, tiến về phía trước
 found	(q.k of find) tìm, tìm thấy
 foundation	sự thành lập, sự sáng lập; tổ chức
 frame	cấu trúc, hệ thống; dàn xếp, bố trí
@@ -1373,7 +1209,7 @@ frequent	thường xuyên
 frequently	thường xuyên
 fresh	tươi, tươi tắn
 freshly	tươi mát, khỏe khoắn
-Friday	thứ Sáu
+friday	thứ Sáu
 fridge	tủ lạnh
 friend	người bạn
 friendly	thân thiện, thân mật
@@ -1384,7 +1220,6 @@ frightening	kinh khủng, khủng khiếp
 frightened	hoảng sợ, khiếp sợ
 from	frəm/	từ
 front	mặt; đằng trước, về phía trước
-freeze	sự đông lạnh, sự giá lạnh; làm đông, làm đóng băng
 fruit	quả, trái cây
 fry	rán, chiên; thịt rán
 fuel	chất đốt, nhiên liệu
@@ -1451,7 +1286,6 @@ grade	điểm, điểm số; phân loại, xếp loại
 gradual	dần dần, từng bước một
 gradually	dần dần, từ từ
 grain	thóc lúa, hạt, hột; tính chất, bản chất
-gram	ngữ pháp
 grammar	văn phạm
 grand	rộng lớn, vĩ đại
 grandchild	cháu (của ông bà)
@@ -1721,7 +1555,7 @@ item	tin tức; khoả(n)., món…, tiết mục
 itself	chính cái đó, chính điều đó, chính con vật đó
 jacket	áo vét
 jam	mứt
-January	tháng giêng
+january	tháng giêng
 jealous	ghen,, ghen tị
 jeans	quần bò, quần zin
 jelly	thạch
@@ -1737,9 +1571,9 @@ joy	niềm vui, sự vui mừng
 judge	xét xử, phân xử; quan tòa, thẩm phán
 judgement	sự xét xử
 juice	nước ép (rau, củ, quả)
-July	tháng 7
+july	tháng 7
 jump	nhảy; sự nhảy, bước nhảy
-June	tháng 6
+june	tháng 6
 junior	trẻ hơn, ít tuổi hơn; người ít tuổi hơn
 just	đúng, vừa đủ; vừa mới, chỉ
 justice	sự công bằng
@@ -1762,7 +1596,6 @@ kindness	sự tử tế, lòng tốt
 king	vua, quốc vương
 kiss	hôn, cái hôn
 kitchen	bếp
-kilometre	Kilômet
 knee	đầu gối
 knife	con dao
 knit	đan, thêu
@@ -1846,10 +1679,8 @@ liquid	chất lỏng; lỏng, êm ái, du dương, không vững
 list	danh sách; ghi vào danh sách
 listen	nghe, lắng nghe
 literature	văn chương, văn học
-litre	lít
 little	nhỏ, bé, chút ít; không nhiều; một chút
 live	sống, hoạt động
-live	sống
 living	sống, đang sống
 lively	sống, sinh động
 load	gánh nặng, vật nặng; chất, chở
@@ -1912,7 +1743,7 @@ manufacturing	sự sản xuất, sự chế tạo
 manufacturer	người chế tạo, người sản xuất
 many	nhiều
 map	bản đồ
-March	tháng ba
+march	tháng ba
 mark	dấu, nhãn, nhãn mác; đánh dấu, ghi dấu
 market	chợ, thị trường
 marketing	ma-kết-tinh
@@ -1930,7 +1761,6 @@ mathematics	toán học, môn toán
 matter	chất, vật chất; có ý nghĩa, có tính chất quan trọng
 maximum	cực độ, tối đa; trị số cực đại, lượng cực đại, cực độ
 may	có thể, có lẽ
-May	tháng 5
 maybe	có thể, có lẽ
 mayor	thị trưởng
 me	tôi, tao, tớ
@@ -1983,7 +1813,6 @@ minority	phần ít, thiểu số
 minute	phút
 mirror	gương
 miss	lỡ, trượt; sự trượt, sự thiếu vắng
-Miss	cô gái, thiếu nữ
 missing	vắng, thiếu, thất lạc
 mistake	lỗi, sai lầm, lỗi lầm; phạm lỗi, phạm sai lầm
 mistaken	sai lầm, hiểu lầm
@@ -1995,7 +1824,7 @@ model	mẫu, kiểu mẫu
 modern	hiện đại, tân tiến
 mum	mẹ
 moment	chốc, lát
-Monday	thứ 2
+monday	thứ 2
 money	tiền
 monitor	lớp trưởng, màn hình máy tính; nghe, ghi phát thanh, giám sát
 month	tháng
@@ -2022,7 +1851,6 @@ movie	phim xi nê
 much	nhiều, lắm
 mud	bùn
 multiply	nhân lên, làm tăng lên nhiều lần; sinh sôi nảy nở
-mum	mẹ
 murder	tội giết người, tội ám sát; giết người, ám sát
 muscle	cơ, bắp thịt
 museum	bảo tàng
@@ -2096,7 +1924,7 @@ nothing	không gì, không cái gì
 notice	thông báo, yết thị; chú ý, để ý, nhận biết
 noticeable	đáng chú ý, đáng để ý
 novel	tiểu thuyết, truyện
-November	tháng 11
+november	tháng 11
 now	bây giờ, hiện giờ, hiện nay
 nowhere	không nơi nào, không ở đâu
 nuclear	(thuộc) hạt nhân
@@ -2118,7 +1946,7 @@ occupied	đang sử dụng, đầy (người)
 occur	xảy ra, xảy đến, xuất hiện
 ocean	đại dương
 o’clock	đúng giờ
-October	tháng 10
+october	tháng 10
 odd	kỳ quặc, kỳ cục, lẻ (số)
 oddly	kỳ quặc, kỳ cục, lẻ (số)
 of	or /əv/	của
@@ -2134,7 +1962,7 @@ officially	một cách trịnh trọng, một cách chính thức
 often	thường, hay, luôn
 oh	chao, ôi chao, chà, này..
 oil	dầu
-OK	đồng ý, tán thành
+ok	đồng ý, tán thành
 old	già
 on	trên, ở trên; tiếp tục, tiếp diễn
 once	một lần; khi mà, ngay khi, một khi
@@ -2235,7 +2063,6 @@ pen	bút
 pence	đồng xu
 penny	đồng xu
 pencil	bút chì
-penny	số tiền
 pension	tiền trợ cấp, lương hưu
 people	dân tộc, dòng giống; người
 pepper	hạt tiêu, cây ớt
@@ -2338,7 +2165,6 @@ possibility	khă năng, triển vọng
 possible	có thể, có thể thực hiện
 possibly	có lẽ, có thể, có thể chấp nhận được
 post	thư, bưu kiện; gửi thư
-post	bưu điện
 pot	can, bình, lọ…
 potato	khoai tây
 potential	tiềm năng; khả năng, tiềm lực
@@ -2436,7 +2262,6 @@ proudly	một cách tự hào, một cách hãnh diện
 prove	chứng tỏ, chứng minh
 provide	chuẩn bị đầy đủ, dự phòng; cung cấp, chu cấp
 provided	với điều kiện là, miễn là
-pint	panh (= 0, 58 lít (E);=0, 473 lít (A));
 public	chung, công cộng; công chúng, nhân dân
 publicly	công khai, công cộng
 publication	sự công bố; sự xuất bản
@@ -2682,7 +2507,7 @@ satisfaction	sự làm cho thỏa mãn, toại nguyện; sự trả nợ, bồi 
 satisfy	làm thỏa mãn, hài lòng; trả (nợ), chuộc tội
 satisfied	cảm thấy hài lòng, vừa ý, thoả mãn
 satisfying	đem lại sự thỏa mãn, làm thỏa mãn, làm vừa ý
-Saturday	thứ 7
+saturday	thứ 7
 sauce	nước xốt, nước chấm
 save	cứu, lưu
 saving	sự cứu, sự tiết kiệm
@@ -2737,7 +2562,7 @@ separate	khác nhau, riêng biệt; làm rời, tách ra, chia tay
 separated	ly thân
 separately	không cùng nhau, thành người riêng, vật riêng
 separation	sự chia cắt, phân ly, sự chia tay, ly thân
-September	tháng 9
+september	tháng 9
 series	loạt, dãy, chuỗi
 serious	đứng đắn, nghiêm trang
 seriously	đứng đắn, nghiêm trang
@@ -3023,7 +2848,7 @@ sum	tổng, toàn bộ
 summary	bản tóm tắt
 summer	mùa hè
 sun	mặt trời
-Sunday	Chủ nhật
+sunday	Chủ nhật
 superior	cao, chất lượng cao
 supermarket	siêu thị
 supply	sự cung cấp, nguồn cung cấp; cung cấp, đáp ứng, tiếp tế
@@ -3059,7 +2884,6 @@ swim	bơi lội
 swimming	sự bơi lội
 swing	sự đu đưa, lúc lắc; đánh đu, đu đưa, lúc lắc
 switch	công tắc, roi; tắt, bật, đánh bằng gậy, roi
-swollen	/swel/	phồng lên, sưng lên
 symbol	biểu tượng, ký hiệu
 sympathetic	đồng cảm, đáng mến, dễ thương
 sympathy	sự đồng cảm, sự đồng ý
@@ -3142,7 +2966,7 @@ through	qua, xuyên qua
 throughout	khắp, suốt
 throw	ném, vứt, quăng
 thumb	ngón tay cái
-Thursday	thứ 5
+thursday	thứ 5
 thus	như vậy, như thế, do đó
 ticket	vé
 tidy	sạch sẽ, ngăn nắp, gọn gàng; làm cho sạch sẽ, gọn gàng, ngăn nắp
@@ -3224,7 +3048,7 @@ trust	niềm tin, sự phó thác; tin, tin cậy, phó thác
 truth	sự thật
 try	thử, cố gắng
 tube	ống, tuýp
-Tuesday	thứ 3
+tuesday	thứ 3
 tune	điệu, giai điệu; lên dây, so dây (đàn)
 tunnel	đường hầm, hang
 turn	quay, xoay, vặn; sự quay, vòng quay
@@ -3240,13 +3064,8 @@ ugly	xấu xí, xấu xa
 ultimate	cuối cùng, sau cùng
 ultimately	cuối cùng, sau cùng
 umbrella	ô, dù
-unable	không thể, không có khẳ năng (# có thể)
 unacceptable	không thể chấp nhận
-uncertain	không chắc chắn, khôn biết rõ ràng
 uncle	chú, bác
-uncomfortable	bất tiện, không tiện lợi
-unconscious	bất tỉnh, ngất đi
-uncontrolled	không bị kiềm chế, không bị kiểm tra
 under	dưới, ở dưới; ở phía dưới, về phía dưới
 underground	dưới mặt đất, ngầm dưới đất; ngầm
 underneath	dưới, bên dưới
@@ -3254,18 +3073,11 @@ understand	hiểu, nhận thức
 understanding	trí tuệ, sự hiểu biết
 underwater	ở dưới mặt nước, dưới mặt nước
 underwear	quần lót
-undo	tháo, gỡ, xóa, hủy bỏ
-unemployed	không dùng, thất nghiệp
-unemployment	sự thất nghiệp, tình trạng thất nghiệp
 unexpected,	bất ngờ, đột ngột, gây ngạc nhiên
 unfair,	không đúng, không công bằng, gian lận
 unfortunate	không may, rủi ro, bất hạnh
 unfortunately	một cách đáng tiếc, một cách không may
-unfriendly	đối địch, không thân thiện
-unhappiness	sự buồn, nỗi buồn
-unhappy	buồn rầu, khổ sở
 uniform	đồng phục; đều, giống nhau, đồng dạng
-unimportant	không quan trọng
 union	liên hiệp, sự đoàn kết, sự hiệp nhất
 unique	độc nhất vô nhị
 unit	đơn vị
@@ -3273,19 +3085,7 @@ unite	liên kết, hợp nhất, hợp lại, kết thân
 united	liên minh, đoàn kết, chung, thống nhất
 universe	vũ trụ
 university	trường đại học
-unkind	không tử tế, không tốt
-unknown	không biết, không được nhận ra
 unless	trừ phi, trừ khi, nếu không
-unlike	không giống, khác
-unlikely	không có thể xảy ra, không chắc chắn; không có thực
-unload	tháo, dỡ
-unlucky	không gặp may, không may mắn
-unnecessary	không cần thiết, không mong muốn
-unpleasant	không dễ chịu, khó chịu
-unreasonable	vô lý, vượt quá giới hạn của cái hợp lý
-unsteady	không đúng mực, không vững, không chắc
-unsuccessful	không thành công, không thành đạt
-untidy	không gọn gàng, không ngăn nắp, lộn xộn
 until	trước khi, cho đến khi
 unusual,	hiếm, khác thường
 unwilling,	không muốn, không có ý định
@@ -3380,14 +3180,13 @@ wear	mặc, mang, đeo
 weather	thời tiết
 web	mạng, lưới
 wedding	lễ cưới, hôn lễ
-Wednesday	thứ 4
+wednesday	thứ 4
 week	tuần, tuần lễ
 weekend	cuối tuần
 weekly	mỗi tuần một lần, hàng tuần
 weigh	cân, cân nặng
 weight	trọng lượng
 welcome	chào mừng, hoan nghênh
-well	tốt, giỏi; ôi, may quá!
 west	phía Tây, theo phía tây, về hướng tây
 western	về phía tây, của phía tây
 wet	ướt, ẩm ướt
@@ -3427,7 +3226,6 @@ willingness	sự bằng lòng, sự vui lòng
 win	chiếm, đọat, thu được
 winning	đang dành thắng lợi, thắng cuộc
 wind	quấn lại, cuộn lại
-wind	gió
 window	cửa sổ
 wine	rượu, đồ uống
 wing	cánh, sự bay, sự cất cánh

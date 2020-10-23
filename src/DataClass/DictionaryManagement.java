@@ -1,40 +1,23 @@
 package DataClass;
 
 
+import DictionaryApplication.Controller;
+
 import java.io.*;
 import java.lang.*;
 import java.util.Scanner;
 
 public class DictionaryManagement {
 
-    public static Scanner sc = new Scanner(System.in);
     private static final String FILENAME = new File("src/DictionaryApplication/dictionaries.txt").getAbsolutePath();
 
-    public static void insertWord(String a, String b) {
-        BufferedWriter bw = null;
-        FileWriter fw = null;
-
-        try {
-            String data = a + " " + b;
-            File file = new File(FILENAME);
-            // if file doesnt exists, then create it
-            if (!file.exists()) file.createNewFile();
-            // true = append file
-            fw = new FileWriter(file.getAbsoluteFile(), true);
-            bw = new BufferedWriter(fw);
-            bw.write(data + "\n");
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                if (bw != null)
-                    bw.close();
-                if (fw != null)
-                    fw.close();
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
-        }
+    public static void insertWord(String a, String b) throws FileNotFoundException {
+        Word w = new Word(a, b);
+        Dictionary.addWord(w);
+        PrintWriter writer = new PrintWriter(FILENAME);
+        writer.print("");
+        writer.close();
+        exportToFile();
     }
 
     public static void exportToFile() {
@@ -97,7 +80,7 @@ public class DictionaryManagement {
             String textInALine = br.readLine();
             while (textInALine != null) {
                 String[] s = textInALine.split("\\s", 2);
-                Dictionary.addWord(new Word(s[0], s[1]));
+                Dictionary.addWord(new Word(s[0].toLowerCase(), s[1]));
                 textInALine = br.readLine();
             }
         } catch (IOException e) {
