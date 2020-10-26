@@ -26,12 +26,6 @@ public class DictionaryApplication extends Application {
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
 
-            /* fix
-            Image laucherIcon = new Image("");
-            primaryStage.getIcons().add(laucherIcon);
-            primaryStage.setTitle("Dictionary");
-            */
-
             primaryStage.show();
 
         }catch (Exception e) {

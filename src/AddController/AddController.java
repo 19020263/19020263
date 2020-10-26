@@ -29,14 +29,12 @@ public class AddController implements Initializable {
             alert.setHeaderText(null);
             alert.setContentText("New word is added successfully!");
             alert.showAndWait();
-            System.out.println(DictionaryCommandLine.showAllWords());
         } else {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Information");
             alert.setHeaderText(null);
             alert.setContentText("New word had already in the dictionary");
             alert.showAndWait();
-            System.out.println(DictionaryCommandLine.showAllWords());
         }
     }
 

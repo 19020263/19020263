@@ -114,7 +114,6 @@ public class Controller implements Initializable {
         alert.setContentText("Word ' " + input.getText() + "'" + " is deleted!");
         alert.showAndWait();
         DictionaryManagement.insertFromFile();
-        System.out.println(DictionaryCommandLine.showAllWords());
     }
 
     public void Speak() throws FileNotFoundException {

@@ -191,7 +191,7 @@ asleep	ngủ, đang ngủ
 aspect	vẻ bề ngoài, diện mạo
 assist	giúp, giúp đỡ; tham dự, có mặt
 assistance	sự giúp đỡ
-assistant	người giúp đỡ, người phụ tá; giúp đỡ, phụ tá
+assistants	người giúp đỡ, người phụ tá
 associate	kết giao, liên kết, kết hợp, cho cộng tác
 association	sự kết hợp, sự liên kết
 assume	mang, khoác, có, lấy (cái vẻ, tính chất…)

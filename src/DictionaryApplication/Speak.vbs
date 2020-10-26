@@ -1,1 +1,1 @@
-CreateObject("SAPI.SpVoice").Speak("and")
+CreateObject("SAPI.SpVoice").Speak("dung")
