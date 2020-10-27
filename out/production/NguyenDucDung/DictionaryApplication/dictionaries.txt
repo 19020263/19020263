@@ -443,7 +443,7 @@ uncertain	thiếu chính xác, không chắc chắn
 certificate	giấy chứng nhận, bằng, chứng chỉ
 chain	dây, xích; xính lại, trói lại
 chair	ghế
-chairman,	/’tʃeə,wumən/	chủ tịch, chủ tọa
+chairman	chủ tịch, chủ tọa
 challenge	sự thử thách, sự thách thức; thách thức, thử thách
 chamber	buồng, phòng, buồng ngủ
 chance	sự may mắn

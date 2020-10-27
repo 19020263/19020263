@@ -1,10 +1,7 @@
 package AddController;
 
 import DataClass.Dictionary;
-import DataClass.DictionaryCommandLine;
 import DataClass.DictionaryManagement;
-import DataClass.Word;
-import DictionaryApplication.Controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
